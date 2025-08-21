@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main5() {
+    double length = 4;
+    double width = 4;
+    double height = 4;
+    double fourthVariable = 4;
+    double fifthVariable = 4;
+    double sixthVariable = 4;
+
+    double hypervolume = length * width * height * fourthVariable * fifthVariable * sixthVariable;
+
+    std::cout << "The hypervolume of the 6D figure is: " << hypervolume << std::endl;
+
+    return 0;
+
+
+}
