@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    // Set the edge length of the 4D orthoplex
+    double edgeLength = 4;
+
+    // Compute the hypervolume
+    double hypervolume = (8.0 / 3.0) * std::pow(edgeLength, 4);
+
+    std::cout << "The hypervolume of the 4D orthoplex is: " << hypervolume << std::endl;
+
+    return 0;
+}
